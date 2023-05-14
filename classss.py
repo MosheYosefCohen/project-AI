@@ -77,3 +77,4 @@ class OrderManagementSystem:
         order = self.orders[order_id]
         return order.get_total_price()
 
+lis_of_names = ["Emma", "Noah", "Olivia", "Liam", "Ava", "William", "Sophia", "Mason", "Isabella", "James", "Mia", "Benjamin", "Charlotte", "Jacob", "Amelia", "Michael", "Harper", "Elijah", "Evelyn", "Ethan", "Abigail", "Alexander", "Emily", "Daniel", "Elizabeth", "Matthew", "Mila", "Aiden", "Ella", "Henry"]
