@@ -78,3 +78,4 @@ class OrderManagementSystem:
         return order.get_total_price()
 
 lis_of_names = ["Emma", "Noah", "Olivia", "Liam", "Ava", "William", "Sophia", "Mason", "Isabella", "James", "Mia", "Benjamin", "Charlotte", "Jacob", "Amelia", "Michael", "Harper", "Elijah", "Evelyn", "Ethan", "Abigail", "Alexander", "Emily", "Daniel", "Elizabeth", "Matthew", "Mila", "Aiden", "Ella", "Henry"]
+lis_of_names = ['T-shirt', 'Jeans', 'Sneakers', 'Watch', 'Sunglasses', 'Perfume', 'Handbag', 'Backpack', 'Jacket', 'Hoodie', 'Sweater', 'Skirt', 'Dress', 'High heels', 'Running shoes', 'Smartphone', 'Laptop', 'Tablet', 'Headphones', 'Bluetooth speaker', 'Gaming console', 'Camera', 'Fitness tracker', 'Smartwatch', 'Virtual reality headset', 'Drone', 'Wireless earbuds', 'Fitness equipment', 'Electric razor', 'Air purifier']
