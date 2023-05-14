@@ -1,3 +1,4 @@
+import random
 class Customer:
     def _init_(self, customer_id, name, email, phone):
         self.customer_id = customer_id
