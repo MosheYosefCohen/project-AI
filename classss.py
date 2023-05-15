@@ -92,6 +92,12 @@ class OrderManagementSystem:
         order = self.orders[order_id]
         return order.get_total_price()
 
+    def remove_order(self, password, order_id):
+        if password == 1:
+            if order_id not in self.orders:
+                raise ValueError("Invalid order_id")
+            del self.orders[order_id]
+
 
 store = OrderManagementSystem()
 lst_names = ["Emma", "Noah", "Olivia", "Liam", "Ava", "William", "Sophia", "Mason", "Isabella", "James", "Mia", "Benjamin", "Charlotte", "Jacob", "Amelia", "Michael", "Harper", "Elijah", "Evelyn", "Ethan", "Abigail", "Alexander", "Emily", "Daniel", "Elizabeth", "Matthew", "Mila", "Aiden", "Ella", "Henry"]
@@ -108,6 +114,3 @@ for i in range(30):
 #
 # for i in range(30):
 #     print(store.products[i])
-
-
-
