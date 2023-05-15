@@ -1,3 +1,12 @@
+from time import localtime, strftime
+
+class information:
+    def __init__(self, open_hour, closing_hour):
+        self.time = strftime("%I:%M %p", localtime())
+        self.open_hour  = open_hour
+        self.closing_hour = closing_hour
+
+
 class Customer:
     def __init__(self, customer_id, name, email, phone):
         self.customer_id = customer_id
